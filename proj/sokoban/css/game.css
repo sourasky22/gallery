@@ -1,0 +1,33 @@
+body {
+    background-color: tomato;
+    text-align: center;
+}
+
+/* .selected {
+    outline: 5px solid orange;
+} */
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.cell {
+    background-color: lightblue;
+    width: 40px;
+    height:40px;
+    text-align: center;
+    font-size:1.4em;
+}
+
+.floor_mark {
+    outline: 5px solid orange;
+}
+
+.box_mark {
+    outline: 5px solid lightgreen;
+}
+
+.targets{
+    background-color:  rgb(218, 113, 245);
+}
+

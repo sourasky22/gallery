@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Balls</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+
+<body onload="initGame()">
+
+    <header>
+        <div>
+            <h1>Whats in the picture?</h1>
+            <button class="restart" onclick="initGame()">restart</button>
+        </div>
+    </header>
+
+
+    <div class="container">
+            <div class='wrapper1'>
+                   <div class="gameHost">
+                       <p class="speech">Pick the company name!</p>
+                       <img src="img/robot.png" alt="robot">
+                  </div>
+                </div>
+            <div class='wrapper2'>
+                <div class="questImage"></div>
+                <button class="quest1" onclick="checkAnswer(0)"></button>
+                <button class="quest2" onclick="checkAnswer(1)"></button>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- <div class="bottomMenu">
+        <button class="quest1" onclick="checkAnswer(0)"></button>
+        <button class="quest2" onclick="checkAnswer(1)"></button>
+    </div> -->
+    </div>
+    </div>
+    <footer>
+     <div class="container">
+        <progress class="bar" value="0" max="100"> </progress>
+    </div>
+    </footer>
+
+    <!-- <div id="main-circle">
+        <div id="inner-circle" onclick="initGame()">RESTART</div>
+      </div> -->
+
+    <script src="js/game.js"></script>
+
+</body>
+
+</html>

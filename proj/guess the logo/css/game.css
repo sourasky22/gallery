@@ -1,0 +1,126 @@
+body {
+    background-color:#a74040;
+}
+
+header{
+    background-color:#8e6060;
+    text-align: center;
+}
+
+
+.gameHost{
+    float: left;
+    padding-left: 60px;
+}
+
+.guessImg{
+    float: right;
+    height:40px; 
+    margin-right: 80px;
+    margin-top: 110px;
+    width: 200px;
+    height: 200px;
+}
+
+.bottomMenu{
+    clear: right;
+}
+
+.quest1 , .quest2 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px ;
+    text-align: center center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 120px;
+    right: 30px;
+    top: 20px;
+    float: right;
+    position: relative;
+    margin: 10px;
+    outline: none;
+    transition: background-color .2s;
+}
+
+.quest1:hover, .quest2:hover {
+    transform: scale(1.1);
+  }
+
+
+.restart{
+    background-color: rgb(165, 28, 51);
+    border: none;
+    color: white;
+    text-align: center center;
+    font-size: 16px;
+    margin: 10px;
+    outline: none;
+}
+
+.restart:hover{
+    transform: scale(1.1);
+}
+
+/*
+  footer {
+    background: white;
+    border: 1px solid #000;
+    clear: both;
+}
+*/
+
+.bar{
+    margin-top: 20px;
+background: white;
+border: 1px solid #000;
+width: 100%;
+}
+
+
+/* speech baloon */
+
+p.speech {
+    position: relative;
+    font-size: 20px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-color: #fff;
+    border: 8px solid #666;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 2px 2px 4px #888;
+    left: 130px;
+    }
+  
+    p.speech:before {
+      content: ' ';
+      position: absolute;
+      width: 0;
+      height: 0;
+      left: 30px;
+      top: 100px;
+      border: 25px solid;
+      border-color: #666 transparent transparent #666;
+    }
+
+.wrapper1{
+    display: flex;
+}
+
+
+
+.container{
+    display: flex;
+    width: 750px;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto;
+}
+
+
