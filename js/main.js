@@ -149,11 +149,10 @@ function renderModals($elModals) {
                   <li>${gProjs.labels[0]}</li>
                   <li>${gProjs.labels[1]}</li>
                 </ul>
-                <a href="proj/${gProjs.id}/index.html" class="icon-block">
-                <button>Play</button>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                    <i class="fa fa-times"></i>Close Project</a></button>
+                    <button type="button" class="btn btn-secondary">
+                    <a href="proj/${gProjs.id}/index.html">Play</a></button>
               </div>
             </div>
           </div>
@@ -166,7 +165,7 @@ function renderModals($elModals) {
   });
   $elModals.html(strHtmls);
 }
-
+/* <a href="proj/${gProjs.id}/index.html" class="icon-block"> */
 function contactMe(){
 
   var inputEmail = $("input[type=email]").val();
